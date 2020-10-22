@@ -1,0 +1,18 @@
+public class mahasiswa {
+    private String Nama;
+    private String NIM;
+    private String Jurusan;
+
+    mahasiswa(String inputNama, String inputNim, String inputJurusan) {
+        this.Nama = inputNama;
+        this.NIM = inputNim;
+        this.Jurusan = inputJurusan;
+        System.out.println(this.Nama);
+        System.out.println(this.NIM);
+        System.out.println(this.Jurusan);
+    }
+
+    public static void main(String[] args) throws Exception {
+        new mahasiswa("Dinda Tsania F", "20190040009", "Teknik Informatika");
+    }
+}

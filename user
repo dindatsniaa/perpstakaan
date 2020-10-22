@@ -1,0 +1,15 @@
+public class user {
+    private String Username;
+    private String Password;
+
+    user(String Username, String Password) {
+        this.Username = Username;
+        this.Password = Password;
+        System.out.println(Username);
+        System.out.println(Password);
+    }
+
+    public static void main(String[] args) throws Exception {
+        new user("dindatfz", "hidupmahasiwa");
+    }
+}

@@ -1,0 +1,15 @@
+public class librarian {
+    public String Nama;
+    public String Nip;
+
+    librarian(String inputNama, String inputNip) {
+        this.Nama = inputNama;
+        this.Nip = inputNip;
+        System.out.println(this.Nama);
+        System.out.println(this.Nip);
+    }
+
+    public static void main(String[] args) throws Exception {
+        new librarian("Raisa Yaya", "19991019123001");
+    }
+}
